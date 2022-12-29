@@ -1,19 +1,3 @@
-using NEWAIHR_API.ViewModel;
-using NEWAIHR.Models;
-using System.Net;
-using System.Net.Http;
-using System.Linq;
-using System.Text;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Web.Http;
-using NEWAIHR.ViewModel;
-
-namespace NEWAIHR.Controllers
-{
-    public class ValuesController : ApiController
-    {
-        NewAIHREntities db = new NewAIHREntities();
 
         #region ==> OWNER 
         public HttpResponseMessage OwnerGet(UserModel PMM)
